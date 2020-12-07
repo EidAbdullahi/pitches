@@ -29,7 +29,7 @@ pip
 Cloning
 In your terminal:
   $ git clone "https://github.com/EidAbdullahi/pitches"
-  $ cd 1_Minute_Pitch
+  $ cd Pitches
 
 Running the Application
 Install virtual environment using $ python3.6 -m venv --without-pip virtual

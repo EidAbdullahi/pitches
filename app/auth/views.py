@@ -28,6 +28,8 @@ def register():
         db.session.add(user)
         db.session.commit()
 
+        #you need a workin email to receive email
+        #you need working email that application to send email
         mail_message("Welcome to One Minute Pitch","email/welcome_user",user.email,user=user)
 
         return redirect(url_for('auth.login'))
