@@ -1,9 +1,10 @@
 {% extends 'bootstrap/base.html' %}
 
 <!-- Styles Block -->
-
-<link rel="stylesheet" href="{{url_for('static', filename='css/Styles.css')}}">
+{%block style%}
+<link rel="stylesheet" href="{{url_for('static', filename='css/styles.css')}}">
 <link href="https://fonts.googleapis.com/css?family=Acme&display=swap" rel="stylesheet">
+{%endblock%}
 
 <!-- Navbar -->
 {% block navbar %}
